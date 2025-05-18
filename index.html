@@ -58,6 +58,9 @@
             background-position: center;
             background-size: cover;
         }
+        #hiddenText li:hover{
+            border-bottom: 4px solid rgba(133,72,42,255);
+        }
     </style>
 </head>
 <body class="font-sans">
@@ -67,7 +70,7 @@
                 <div>
                     <i class="fa-solid fa-bars fa-2x cursor-pointer z-20 relative text-white" onclick="toggleText()" id="menuIcon"></i>
                 </div>
-                <div id="hiddenText" class="hidden absolute top-0 left-0 w-full h-[100dvh] bg-[rgba(228,215,207,255)] z-10">
+                <div id="hiddenText" class="text-center hidden absolute top-0 left-0 w-full h-[100dvh] bg-[rgba(228,215,207,255)] z-10">
                     <nav class="flex justify-center items-center h-full">
                         <ul> 
                             <li class="uppercase font-bold text-2xl text-[rgba(133,72,42,255)]"><a href="#">home</a></li>
