@@ -11,3 +11,9 @@ function toggleText() {
         icon.classList.add("fa-xmark" , 'text-[rgba(133,72,42,255)]' ,);
       }
 }
+let date = new Date()
+let year = date.getFullYear()
+let footer = document.getElementById('sect')
+footer.innerHTML =`
+  @ ${year} design by fatzy........
+`
