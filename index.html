@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .sect1 {
+            background-image: url(/image/life.jpeg);
+            background-position: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .back {
+            background-color: rgba(107,34,25,0.3);
+          
+        }
+        .read:hover {
+            color: white;
+            background-color: rgba(146,64,14,255);
+            transition: 1s ease-in;
+        }
+        .read:hover p {
+            transition: inherit;
+            color: white;
+        }
+        .sandy {
+            background-image: url(image/life5.jpeg);
+            background-position: center;
+            background-size: cover;
+            height: 250px;
+        }
+        .trails {
+            background-image: url(image/life4.jpeg);
+            background-position: center;
+            background-size: cover;
+            height: 250px;
+            
+        }
+        .city {
+            background-image: url(image/life3.jpeg);
+            background-position: center;
+            background-size: cover;
+            height: 250px;
+            
+        }
+        .beach {
+            background-color: rgba(17, 16, 16, 0.4);
+            transition: 300ms ease-in;
+        }
+        .beach:hover {
+            background-color: rgba(17, 16, 16, 0.6);
+        }
+        .sect {
+            background-image: url(image/life7.jpeg);
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <section class="sect1  md:h-[50dvh] lg:h-[100dvh] " >
+        <div class="back h-full">
+            <header class="flex justify-between p-[20px] relative">
+                <div>
+                    <i class="fa-solid fa-bars fa-2x cursor-pointer z-20 relative text-white" onclick="toggleText()" id="menuIcon"></i>
+                </div>
+                <div id="hiddenText" class="hidden absolute top-0 left-0 w-full h-[100dvh] bg-[rgba(228,215,207,255)] z-10">
+                    <nav class="flex justify-center items-center h-full">
+                        <ul> 
+                            <li class="uppercase font-bold text-2xl text-[rgba(133,72,42,255)]"><a href="#">home</a></li>
+                            <li class="uppercase font-bold pt-[1rem] text-2xl text-[rgba(133,72,42,255)]"><a href="">about</a></li>
+                            <li class="uppercase font-bold pt-[1rem] text-2xl text-[rgba(133,72,42,255)]"><a href="">blog</a></li>
+                            <li class="uppercase font-bold pt-[1rem] text-2xl text-[rgba(133,72,42,255)]"><a href="">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <h1 class="uppercase text-2xl font-bold text-white">impulse</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope fa-2x text-white"></i>
+                </div>
+            </header>
+            <section class="text-white flex pt-[3rem] md:pt-[5rem] lg:pt-[10rem] justify-center h-full ">
+              <div class="text-center">
+                <h1 class=" text-4xl md:text-5xl lg:text-6xl font-bold" >A taste of every lifestyle</h1>
+                <div class="flex justify-center mt-[3rem]  md:mt-[4rem] lg:mt-[5rem]">
+                    <div class="w-[150px] h-[50px] bg-amber-900 flex justify-center items-center uppercase">
+                        <p>read the blog</p>
+                    </div>
+                </div>
+                <div class="flex justify-between px-[25px] mt-[5rem] mb-[2rem] md:mt-[10rem]   uppercase lg:mt-[7rem]">
+                    <div>
+                        <u>find out more</u>
+                    </div>
+                    <div>
+                        <u>get in touch</u>
+                    </div>
+                </div>
+              </div>
+            </section>
+        </div>
+    </section>
+    <main>
+        <section class="flex flex-wrap justify-between lg:ml-[100px] md:ml-[50px] ">
+            <div class="flex justify-center">
+                <img src="image/life1.jpeg" alt="" class=" w-[70%] md:w-[300px] lg:w-[500px] lg:h-[300px] lg:mt-[5rem]  md:mt-[10rem]  my-[3rem]">
+            </div>
+            <div class=" md:w-[50%] bg-[rgba(243,244,246,255)] p-[3rem] md:p-[3rem] lg:p-[5rem] ">
+                <div  class="border-[5px] border-[rgba(146,64,14,255)] border-solid w-[100px]"></div>
+                <h3 class="pt-[1rem] font-bold text-[1.7rem] lg:text-4xl">This is my third & latest post</h3>
+                <p class="pt-[2rem] text-[1rem]">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+                <div class="read border-[2px] border-[rgba(146,64,14,255)] border-solid uppercase w-[150px] h-[40px] flex justify-center items-center mt-[2rem]">
+                    <p class="text-[rgba(73,13,0,255)]"><a href="">read more</a></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <img src="/image/life2.jpeg" alt=""  class="h-[80dvh] w-[100%] object-cover ">
+        </section>
+        <section class="flex justify-center my-[6rem]">
+           <div class="text-center">
+          <div class="flex justify-center">
+            <div  class="border-[3px] border-[rgba(146,64,14,255)] border-solid w-[100px]"></div>
+          </div>
+            <h1 class="font-bold text-3xl lg:text-5xl py-4">We love to travel</h1>
+            <p class="  md:w-[580px]">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+           </div>
+        </section>
+        <section class="flex flex-wrap justify-center">
+            <div class="sandy w-[95%]  md:w-[33%]">
+                <div class="beach h-full w-full flex justify-center items-center bg-">
+                    <h2 class="uppercase text-white font-semibold">sandy beaches</h2>
+                </div>
+            </div>
+            <div class="trails w-[95%] md:w-[33%] ">
+                <div class="beach h-full w-full flex justify-center items-center bg-">
+                    <h2 class="uppercase text-white font-semibold">sandy beaches</h2>
+                </div>
+            </div>
+            <div class="city w-[95%] md:w-[33%]">
+                <div class="beach h-full w-full flex justify-center items-center bg-">
+                    <h2 class="uppercase text-white font-semibold">sandy beaches</h2>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-wrap justify-between lg:mr-[100px] md:mr-[50px] ">
+           
+            <div class=" md:w-[50%] bg-[rgba(243,244,246,255)] p-[3rem] md:p-[3rem] lg:p-[5rem] ">
+                <div  class="border-[5px] border-[rgba(146,64,14,255)] border-solid w-[100px]"></div>
+                <h3 class="pt-[1rem] font-bold text-[1.7rem] lg:text-4xl">This is my second post</h3>
+                <p class="pt-[2rem] text-[1rem]">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                <div class="read border-[2px] border-[rgba(146,64,14,255)] border-solid uppercase w-[150px] h-[40px] flex justify-center items-center mt-[2rem]">
+                    <p class="text-[rgba(73,13,0,255)]"><a href="">read more</a></p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="image/life6.jpeg" alt="" class=" w-[70%] md:w-[300px] lg:w-[500px] lg:h-[300px] lg:mt-[5rem]  md:mt-[10rem]  my-[3rem]">
+            </div>
+        </section>
+        <section class="sect py-[100px] md:py-[150px] flex justify-center items-center">
+            <div class="text-center text-white">
+                <h1 class="font-bold text-3xl md:text-6xl" >Endlessly customizable</h1>
+                <p class="font-bold pt-6">Organic grow the holistic world view of disruptive innovation via workplace diversity and environment.</p>
+                <div class="flex justify-center mt-[2rem]">
+                    <div class="w-[200px] h-[50px] bg-amber-900 flex justify-center items-center uppercase">
+                        <p>find out more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
