@@ -15,5 +15,5 @@ let date = new Date()
 let year = date.getFullYear()
 let footer = document.getElementById('sect')
 footer.innerHTML =`
-  @ ${year} design by fatzy........
+  @ ${year} design by fatzy..
 `
